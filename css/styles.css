@@ -1,6 +1,5 @@
 /* Общие */
 
-/* Ссылки */
 a {
   text-decoration: none;
 }
@@ -8,6 +7,18 @@ a:hover,
 a:target {
   color: #2196f3;
 }
+
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
 h3 {
   font-family: Roboto;
   font-style: normal;
@@ -18,6 +29,19 @@ h3 {
   text-transform: uppercase;
   color: #212121;
 }
+
+h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* Основной текст */
 .text {
   font-family: Roboto;
   font-style: normal;
@@ -105,4 +129,20 @@ h3 {
   height: 1px !important;
   width: 1px !important;
   overflow: hidden;
+}
+
+/* Наша команда */
+.team-discrip {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.team {
+  background: #f5f4fa;
 }
