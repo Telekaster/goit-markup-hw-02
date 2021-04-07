@@ -1,3 +1,33 @@
+/* Общие */
+
+/* Ссылки */
+a {
+  text-decoration: none;
+}
+a:hover,
+a:target {
+  color: #2196f3;
+}
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 /* Логотип */
 .logo {
   font-family: Raleway;
@@ -38,15 +68,6 @@
   letter-spacing: 0.02em;
 
   color: #757575;
-}
-
-/* Ссылки */
-a {
-  text-decoration: none;
-}
-a:hover,
-a:target {
-  color: #2196f3;
 }
 
 /* Список */
