@@ -16,7 +16,6 @@ button:target {
 
 .center {
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
@@ -27,7 +26,6 @@ button:target {
 
 h2 {
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -37,7 +35,6 @@ h2 {
 
 h3 {
   font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -48,7 +45,6 @@ h3 {
 
 h4 {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -60,8 +56,6 @@ h4 {
 /* Основной текст */
 .text {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -71,7 +65,6 @@ h4 {
 /* Логотип */
 .logo {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -81,7 +74,6 @@ h4 {
 
 .logo-web {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -91,7 +83,6 @@ h4 {
 
 .header-links {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -101,7 +92,6 @@ h4 {
 
 .header-mailtel {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
@@ -118,7 +108,6 @@ h4 {
 /* Герой */
 .hero {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.37;
@@ -142,7 +131,6 @@ h4 {
 
 .btn2 {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -167,8 +155,6 @@ h4 {
 /* Наша команда */
 .team-discrip {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -188,7 +174,6 @@ footer {
 
 .logo-revers {
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
@@ -198,8 +183,6 @@ footer {
 
 .adress {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -208,8 +191,6 @@ footer {
 
 .footer-mailtel {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -218,8 +199,6 @@ footer {
 
 .our-work {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
