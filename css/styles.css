@@ -8,6 +8,7 @@ body {
 a {
   text-decoration: none;
 }
+
 a:hover,
 a:target {
   color: #2196f3;
@@ -96,10 +97,11 @@ h5 {
 }
 
 .header-mailtel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
 }
 
 /* Список */
