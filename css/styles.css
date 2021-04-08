@@ -8,7 +8,13 @@ a:target {
   color: #2196f3;
 }
 
-h2 {
+button:hover,
+button:target {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.center {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -113,10 +119,27 @@ h4 {
   background: #2f303a;
 }
 
+/* .main-content {
+  background-color: #e5e5e5;
+} */
+
 .btn {
   color: #ffffff;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.btn2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
   border-radius: 4px;
 }
 
