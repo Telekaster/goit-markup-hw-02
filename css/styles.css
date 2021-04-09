@@ -1,8 +1,14 @@
-/* Общие */
+:root {
+--brandcolor: #2196f3;
+--main-text-color: #757575;
+}
+
+
+
 
 body {
   font-family: Roboto; sans-serif;
-  color: #757575;
+  color: var(--main-text-color);
 }
 
 a {
@@ -10,23 +16,16 @@ a {
 }
 
 a:hover,
-a:target {
-  color: #2196f3;
+a:target{
+  color: var(--brandcolor);
 }
+
+
 
 button:hover,
 button:target {
   color: #ffffff;
-  background-color: #2196f3;
-}
-
-.center {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
+  background-color: var(--brandcolor);
 }
 
 h2 {
@@ -62,6 +61,14 @@ h5 {
   letter-spacing: 0.06em;
 }
 
+address{
+  font-style:normal
+}
+
+footer {
+  background: #2f303a;
+}
+
 /* Основной текст */
 .text {
   font-size: 14px;
@@ -85,7 +92,7 @@ h5 {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--brandcolor);
 }
 
 .header-links {
@@ -111,26 +118,30 @@ color: #757575;
 
 /* Герой */
 .hero {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.37;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
-  background: #2f303a;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #2F303A;;
 }
 
-/* .main-content {
-  background-color: #e5e5e5;
-} */
 
 .btn {
-  color: #ffffff;
-  background: #2196f3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer
+font-weight: bold;
+font-size: 16px;
+line-height: 1.88;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+background-color: var(--brandcolor);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+cursor: pointer
 }
 
 .btn2 {
@@ -143,10 +154,6 @@ color: #757575;
   background: #f5f4fa;
   border-radius: 4px;
   cursor: pointer
-}
-
-.cursor {
-  poin;
 }
 
 .visually-hidden {
@@ -172,11 +179,7 @@ color: #757575;
   background: #f5f4fa;
 }
 
-/* Footer */
 
-footer {
-  background: #2f303a;
-}
 
 .logo-revers {
   font-family: Raleway;
@@ -207,4 +210,21 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: #212121;
+}
+
+.active-page {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--brandcolor);
+}
+
+.center {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
